@@ -1,0 +1,213 @@
+@media (max-width: 1210px) {
+    .contenedorgif {
+        display: none;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    html,
+    body {
+        background-image: url(dead_media.jpg);        
+        background-position: center;
+        background-repeat: repeat;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    .contenedor2 {
+
+        width: 450px;
+        height: 400px;
+        margin: 30px;
+
+    }
+
+    .encriptador {
+        background-position: left center;
+    }
+
+    .encriptado {
+
+        height: 300px;
+        background-color: #f4ff77;
+        border-radius: 32px;
+        text-align: center;
+        border: groove 5px white;
+        background-position: right center;
+     
+    }
+
+    .input {
+        width: 400px;
+        background-color: black;
+        margin: 10px;  
+        font-size: 60px;
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        border-radius: 20px;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .contenedor1,
+    .contenedor2 {
+
+        width: 350px;
+        height: 300px;
+        margin: 30px;
+
+    }
+
+    .encriptador,
+    .encriptado {
+
+
+        height: 250px;
+        background-color: #f4ff77;
+        border-radius: 32px;
+        text-align: center;
+        border: groove 5px white;
+        
+
+    }
+
+    .encriptador {
+        background-position: left center;
+    }
+
+    .encriptado {
+        background-position: right center;
+    }
+
+    .input {
+        width: 275px;
+        background-color: black;
+        margin: 10px;  
+        font-size: 30px;
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        border-radius: 20px;
+
+    }
+
+}
+
+@media (max-width: 375px) {
+    .input {
+        width: 90%;
+    }
+
+    .texto {
+        font-size: 30px;
+    }
+
+    .boton1, .boton2 {
+        width: 47%;
+        font-size: 11px;
+    }
+}
+/* estilo de la notificion */
+.notification {
+    display: none;    
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+}
+
+.notification.show {
+    display: flex;
+    align-items: center;
+}
+
+.notification-text {
+    margin-right: 10px;
+}
+
+
+/* estilo del boton */
+
+button {
+    background-color: #f4ff77; /* Amarillo verdoso */
+    color: white; /* Color del texto negro para contraste */
+    border: 3px solid rgba(199, 224, 44, 0.6); /* Borde amarillo verdoso más claro */
+    padding: 15px 35px 15px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    box-shadow:
+      inset 0 2px 5px rgba(255, 255, 255, 0.2),
+      0 15px 25px rgba(199, 224, 44, 0.4), /* Sombra externa amarillo verdoso */
+      0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s,
+      padding 0.2s,
+      letter-spacing 0.2s,
+      font-size 0.2s;
+    }
+    
+  button:before {
+      content: "→";
+      position: absolute;
+      right: 20px;
+      transition: right 0.2s;
+    }
+    
+  button:hover:before {
+      right: 10px;
+    }
+    
+  button:hover {
+      transform: translateY(-5px);
+      padding: 15px 30px 15px 10px;
+      box-shadow:
+        inset 0 2px 5px rgba(255, 255, 255, 0.2),
+        0 20px 30px rgba(199, 224, 44, 0.6), /* Sombra externa más pronunciada amarillo verdoso */
+        0 15px 25px rgba(0, 0, 0, 0.3);
+      letter-spacing: 2px;
+      font-size: 17px;
+    }
+    
+/* Efecto de brillo */
+  button::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -120%;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+      );
+      transition: left 0.7s;
+      transform: skewX(-25deg);
+    }
+    
+  button:hover::after {
+      left: 120%;
+    }

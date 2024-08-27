@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recursos/estilos.css">
+    <link rel="stylesheet" href="recursos/estilosMedia.css">
+
+</head>
+<body>
+
+<header>
+    
+    <h1>Encriptador de texto</h1>
+
+    <div id="notification" class="notification">
+        <span class="notification-text"></span>
+    </div>
+
+</header>
+
+<section class="section1">
+
+    
+    <div class="contenedor1">
+        
+        <div class="encriptador">
+            <textarea type="text" placeholder="Escribe Tu Texto Aqui" class="input"  id="miInput"></textarea>            
+            <p class="limite">No se permiten mayusculas ni acentos, ni numeros</p>
+        </div>
+        
+        <div class="botones1">
+            <button class="boton1" onclick="encriptar()" id="boton1">Encriptar</button>
+            <button class="boton2" onclick="desencriptar()" id="boton2">Desencriptar</button>
+        </div>
+        
+    </div>
+    
+    <div class="contenedorgif">
+        <img src="recursos/encryption.gif" alt="Animated GIF" class="gif">
+    </div>
+
+    <div class="contenedor2">
+        
+        <div class="encriptado">
+            <p class="texto" id="textoEn">ESPERANDO EL TEXTO PARA ENCRIPTAR...</p>
+        </div>
+        
+        <div class="botones2">
+            <button class="boton3" onclick="copiar()" id="boton3">copy</button>
+        </div>
+                
+    </div>
+    
+</section>
+
+        
+<footer>
+    <p>Copyright © Creado Por Eduardo ='D</p>
+</footer>
+
+<script src="recursos/app.js"></script> 
+
+</body>
+</html>

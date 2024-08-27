@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ancho del body */
+  height: 100%; /* Alto del body */
+  background-size: cover;
+  background-image: url(dead_desktop.jpg); /* Reemplaza con la ruta de tu imagen */
+  background-position: center; /* Centra la imagen en el body */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+header{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-size: 70px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 100%;
+ 
+   
+}
+
+.section1 {
+  
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+
+/* seccion del encriptador y los 2 botones */
+.contenedor1 {
+
+  width: 465px;
+  height: 700px;
+  margin: 30px;   
+}
+
+
+.encriptado, .encriptador {
+  
+  background-image: url(dead_div.webp); /* Ruta a tu imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir el div */
+  background-position: center; /* Centra la imagen en el div */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+.encriptador {
+    
+  height: 625px; 
+  border-radius: 32px;
+  border: groove 3px white;
+  background-position: left center;
+  text-align: center;
+
+}
+
+.input {
+  width: 400px;
+  height: 35%;
+  background-color: black;
+  margin: 10px;
+  margin-top: 60px;
+  font-size: 60px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  
+
+  
+  
+}
+  
+.limite {
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+  
+.botones1 {
+  border-radius: 32px;
+  text-align: center;
+  margin: 10px;
+  
+  
+}
+
+/*gif*/
+
+.contenedorgif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.gif {
+  max-width: 150px; /* Ajusta el tamaño máximo del GIF según lo desees */
+  max-height: 150px;
+  border-radius: 32px;
+  border: groove 3px white;
+}
+
+/* seccion del encriptado y el boton de copy */
+.contenedor2 {
+  
+  width: 465px;
+  height: 700px; 
+  margin: 30px;
+     
+}
+.encriptado {
+
+ display: flex;
+ height: 625px;
+ background-color: #f4ff77;
+ border-radius: 32px;
+ justify-content: center;
+ align-items: center;
+ border: groove 3px white;
+ 
+
+}
+
+
+.texto {
+  font-size: 38px;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 100%;
+ 
+}
+
+
+.botones2 {
+  border-radius: 32px;
+  text-align: center;
+  margin: 10px;
+}
+
+  
+footer {
+    font-family: 'Orbitron', sans-serif;
+    color: #d0e06c;
+    text-align: center;
+    margin-bottom: 10px;
+      
+}
