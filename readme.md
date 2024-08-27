@@ -36,6 +36,6 @@ Por ejemplo:
 `gaitober" => "gato"`
 
 ---
-
+![](https://raw.githubusercontent.com/EduardoGIT24/Carpeta-Challenger-Encriptador/main/screencapture-eduardogit24-github-io-Carpeta-Challenger-Encriptador-2024-08-27-16_34_58.png)
 
 ## [ir a la pagina](https://eduardogit24.github.io/Carpeta-Challenger-Encriptador/) 👈
